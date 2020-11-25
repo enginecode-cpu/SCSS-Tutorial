@@ -2,6 +2,8 @@
 
 ### 환경 세팅 방법
 
+<br>  
+
 #### 1. npm 시작하기
 
 ```
@@ -16,9 +18,11 @@ npm init -y
 npm i -D parcel-bundler
 ```
 
+<br>
+
 #### 3. 간단한 HTML, SCSS 파일을 만들어서 실행해보기
 
-index.html 파일
+`index.html` 파일
 
 ```html
 <!DOCTYPE html>
@@ -39,7 +43,7 @@ index.html 파일
 
 <br>
 
-style.scss 파일
+`style.scss` 파일
 
 ```scss
 .container {
