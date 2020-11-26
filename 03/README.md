@@ -1,5 +1,7 @@
 ## 중첩
 
+scss 파일
+
 ```scss
 .section {
   width: 100%;
@@ -13,6 +15,8 @@
 ```
 
 <br>
+
+css 파일
 
 ```css
 .section {
