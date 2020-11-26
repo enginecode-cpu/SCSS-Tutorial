@@ -1,0 +1,33 @@
+.btn {
+  width: 100px;
+  padding: 15px 10px;
+  border-radius: 8px;
+  background-color: yellowgreen;
+  cursor: pointer;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  &.active {
+    background-color: tomato;
+  }
+}
+
+.list {
+  li {
+    &:last-child {
+      color: aqua;
+    }
+  }
+}
+
+.fs {
+  &-small {
+    font-size: 14px;
+  }
+  &-medium {
+    font-size: 16px;
+  }
+  &-large {
+    font-size: 18px;
+  }
+}
