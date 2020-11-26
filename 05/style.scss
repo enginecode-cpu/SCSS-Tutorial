@@ -1,0 +1,17 @@
+.section {
+  $w: 100px;
+  $h: 200px;
+  width: $w * 2;
+  height: $h * 2;
+  background-color: tomato;
+  .item {
+    width: $w;
+    height: $h;
+    background-color: lightgray;
+  }
+  @at-root .box {
+    width: $w;
+    height: $h;
+    background-color: lightblue;
+  }
+}
