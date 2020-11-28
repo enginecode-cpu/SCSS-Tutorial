@@ -1,0 +1,14 @@
+$w: 100px;
+$h: 200px;
+
+.box1 {
+  $color: #111 !global;
+  width: $w;
+  height: $h;
+  background-color: $color;
+}
+.box2 {
+  width: $w * 2;
+  height: $h;
+  background-color: $color;
+}
