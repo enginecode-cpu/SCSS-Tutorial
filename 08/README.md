@@ -2,7 +2,7 @@
 ## 파일 가져오기
 
 ### 파일 가져오기
-```
+```scss
 @import 'hello.css';
 @import "https://hello.com/hello";
 @import url(hello);
@@ -12,7 +12,7 @@
 
 ### 여러 파일 가져오기
 
-```
+```scss
 @import "header", "main", "footer";
 ```
 
